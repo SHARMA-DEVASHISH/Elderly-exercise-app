@@ -1,0 +1,104 @@
+/* styles.css */
+
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://media.istockphoto.com/id/1373659740/photo/shot-of-a-young-doctor-sharing-information-from-his-digital-tablet-with-an-older-patient.jpg?s=1024x1024&w=is&k=20&c=qLtD53oNpnKpvqyMq8OhJragrz4Bmykbk6EKOXMMTSE=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* styles.css */
+
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.summary {
+    text-align: center;
+    padding: 40px 20px;
+    /* background-color: #fff;*/
+}
+
+.summary h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #800000;
+}
+
+.summary p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* .icon {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+} */
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}

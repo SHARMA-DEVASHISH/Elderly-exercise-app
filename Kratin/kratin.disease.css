@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.disease-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.disease-block {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.disease-block:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.disease-button {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.disease-button:hover {
+    background-color: #555;
+}
+
+.disease-block p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
